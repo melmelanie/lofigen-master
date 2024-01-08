@@ -303,11 +303,11 @@ class Player extends Component{
             <div>
                 <div className="content">
                     <div className="title">
-                        <h1>lofi generAtor</h1>
-                        <h5>by Vin-HuynH</h5>
+                        <h1>LOFILLAMA GENERATOR</h1>
+                        <a href="http://www.lofillama.com"><h5>www.lofillama.com</h5></a>
                     </div>
                     <div className="instructions">
-                        <h3>How to use lofigen</h3>
+                        <h3>How to generate a track?</h3>
                         <ol>
                             {!(this.state.pianoLoaded && this.state.kickLoaded && this.state.snareLoaded && this.state.hatLoaded) ?
                                 <li>WAit for sAmples to loAd</li> : ""}
